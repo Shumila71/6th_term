@@ -1,0 +1,12 @@
+header {
+  padding: 8px 0;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  font-size: calc(10px + 2vmin);
+  background-color: #1d1f25;
+}
+header a {
+  background-color: inherit; 
+  color: white; 
+}
