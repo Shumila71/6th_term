@@ -10,7 +10,7 @@ function App() {
         <Router>
             <div className="app">
                 <Routes>
-                    <Route exect path="/" element={<Home />} /> 
+                    <Route exect path="/" element={<Home message="Продам гараж." />} /> 
                     <Route exect path="/about" element={<About />}/>
                 </Routes>
             </div>

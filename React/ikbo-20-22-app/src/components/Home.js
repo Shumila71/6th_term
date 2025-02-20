@@ -2,13 +2,16 @@ import React from 'react';
 import Header from './Header';
 import '../styles/Home.css';
 import '../styles/main.css';
-function Home(){
+function Home({message}){
 return(
     <div>
         <Header/>
         <div className='home'>
-            <h1>Ну здесь дом?</h1>
+            <h1>Здесь дом?</h1>
             <p>Однушка.</p>
+            <br></br>
+            <br></br>
+            <p>{message}</p>
         </div>
     </div>
     );
