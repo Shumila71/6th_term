@@ -10,3 +10,7 @@ header a {
   background-color: inherit; 
   color: white; 
 }
+.active-link{
+  text-decoration: underline;
+  font-weight: bold; /* Дополнительные стили для активной ссылки */
+}

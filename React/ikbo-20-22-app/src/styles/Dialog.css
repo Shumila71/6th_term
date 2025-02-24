@@ -1,0 +1,7 @@
+
+.dialog{
+    padding: 350px 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 50px;
+}

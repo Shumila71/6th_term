@@ -1,15 +1,15 @@
 import React from 'react';
 import '../styles/Header.css';
 import '../styles/main.css';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 function Header(){
-return(
-    <header>
-        <Link to="/">Главная</Link>
-        <Link to="/about"> О нас</Link>
-        {/* <Link to=""> Страница 2</Link>
-        <Link to=""> Страница 3</Link> */}
-    </header>
+    const location = useLocation();
+    return(
+        <header>
+            <Link to="/" className={location.pathname === '/' ? 'active-link' : ''}>Главная</Link>
+            <Link to="/about" className={location.pathname === '/about' ? 'active-link' : ''}> О нас</Link>
+            <Link to="/dialog" className={location.pathname === '/dialog' ? 'active-link' : ''}>Диалоги</Link>
+        </header>
     );
 }
 export default Header;

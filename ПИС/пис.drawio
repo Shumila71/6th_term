@@ -1,0 +1,285 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="Страница — 1" id="WOwDUb-Ctbjl6_2RxUMR">
+    <mxGraphModel dx="3438" dy="206" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-80" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="-1389" y="1069" width="1496" height="867" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-82" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+          <mxGeometry x="-1279" y="804" width="1013" height="247" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-2" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;rounded=1;absoluteArcSize=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1293" y="1407" width="330" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-3" value="Подсистема поиска недвижимости" style="html=1;align=center;spacing=0;verticalAlign=top;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-2">
+          <mxGeometry width="330" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-4" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-2">
+          <mxGeometry y="20" width="330" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-7" value="Автоматизированный поиск объектов недвижимости по заданным критериям (кадастровый номер, адрес, площадь, тип объекта и т. д.)" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-2">
+          <mxGeometry y="28" width="330" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-11" value="Интеграция с базами данных кадастровых и регистрационных органов, поддержка фильтрации и сортировки результатов" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-2">
+          <mxGeometry y="80" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-13" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;rounded=1;absoluteArcSize=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1296" y="1147" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-14" value="Подсистема проверки юридической чистоты объектов " style="html=1;align=center;spacing=0;verticalAlign=top;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-13">
+          <mxGeometry width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-15" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-13">
+          <mxGeometry y="20" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-16" value="Автоматизированная проверка наличия обременений, ограничений и других юридических факторов" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-13">
+          <mxGeometry y="28" width="360" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-17" value="Анализ правоустанавливающих документов, поиск сведений о судебных спорах, интеграция с государственными регистрами" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-13">
+          <mxGeometry y="70" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-19" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;rounded=1;absoluteArcSize=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-1071" y="1665" width="380" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-20" value="Подсистема анализа данных " style="html=1;align=center;spacing=0;verticalAlign=top;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-19">
+          <mxGeometry width="380" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-21" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-19">
+          <mxGeometry y="20" width="380" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-22" value="Оценка рыночной стоимости, анализ динамики цен и выявление рисков" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-19">
+          <mxGeometry y="28" width="380" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-23" value="Использование алгоритмов машинного обучения и аналитических моделей для прогнозирования цен и оценки инвестиционной привлекательности" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-19">
+          <mxGeometry y="70" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-25" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;rounded=1;absoluteArcSize=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-804" y="1381" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-26" value="Подсистема управления данными " style="html=1;align=center;spacing=0;verticalAlign=top;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-25">
+          <mxGeometry width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-27" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-25">
+          <mxGeometry y="20" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-28" value="Хранение, обновление и предоставление актуальной информации о недвижимости" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-25">
+          <mxGeometry y="28" width="360" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-29" value="Регулярное обновление данных из государственных и частных источников, поддержка исторических записей" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-25">
+          <mxGeometry y="70" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-31" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;rounded=1;absoluteArcSize=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-276" y="1325" width="360" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-32" value="Подсистема технической поддержки " style="html=1;align=center;spacing=0;verticalAlign=top;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-31">
+          <mxGeometry width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-33" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-31">
+          <mxGeometry y="20" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-34" value="Консультирование пользователей по работе с системой, устранение технических неполадок" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-31">
+          <mxGeometry y="28" width="360" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-36" value="" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-31">
+          <mxGeometry y="110" width="360" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-37" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;rounded=1;absoluteArcSize=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-804" y="1149" width="360" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-38" value="Подсистема взаимодействия с пользователем " style="html=1;align=center;spacing=0;verticalAlign=top;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-37">
+          <mxGeometry width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-39" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-37">
+          <mxGeometry y="20" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-40" value="Обеспечение удобного интерфейса для поиска, проверки и анализа информации" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-37">
+          <mxGeometry y="28" width="360" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-41" value="Поддержка мультиплатформенности, адаптация под пользователей с ограниченными возможностями" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-37">
+          <mxGeometry y="80" width="360" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-43" value="" style="fontStyle=1;align=center;verticalAlign=middle;childLayout=stackLayout;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;marginBottom=0;rounded=1;absoluteArcSize=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="-278" y="1462" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-44" value="Подсистема администрирования системы " style="html=1;align=center;spacing=0;verticalAlign=top;strokeColor=none;fillColor=none;whiteSpace=wrap;fontStyle=1" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-43">
+          <mxGeometry width="360" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-45" value="" style="line;strokeWidth=0.25;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-43">
+          <mxGeometry y="20" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-47" value="Автоматическая регистрация сбоев и отправка уведомлений администраторам" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-43">
+          <mxGeometry y="28" width="360" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-46" value="Мониторинг работы системы и всех ее компонентов" style="html=1;align=center;spacing=0;verticalAlign=middle;strokeColor=none;fillColor=none;whiteSpace=wrap;" vertex="1" parent="LbroXFFPxOx5z_fi-mgZ-43">
+          <mxGeometry y="62" width="360" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-60" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1193" y="1555" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-61" value="Регистратор&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1093" y="1555" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-62" value="Юридический аналитик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1206" y="1287" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-63" value="Регистратор&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1086" y="1287" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-64" value="Юридический аналитик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-971" y="1802" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-65" value="Аналитик по недвижимости" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-821" y="1802" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-66" value="Регистратор&amp;nbsp;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-712" y="1508" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-67" value="Системный администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-572" y="1508" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-68" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-193" y="1240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-69" value="Сотрудник технической поддержки" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-33" y="1240" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-71" value="Системный администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-113" y="1582" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-72" value="Пользователь" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-714" y="1284" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-73" value="Системный администратор" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-564" y="1284" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="LbroXFFPxOx5z_fi-mgZ-74" target="LbroXFFPxOx5z_fi-mgZ-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-828" y="1031" />
+              <mxPoint x="-828" y="1420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-74" value="Кадастровые и регистрационные органы и открытые базы данных" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-936" y="960" width="280" height="71" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-75" value="Представитель компании" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-811" y="866" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LbroXFFPxOx5z_fi-mgZ-76" target="LbroXFFPxOx5z_fi-mgZ-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-76" value="Государственные реестры (ЕГРН, Росреестр и судебные базы данных)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1256" y="960" width="280" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-77" value="Юрист" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1131" y="866" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LbroXFFPxOx5z_fi-mgZ-78" target="LbroXFFPxOx5z_fi-mgZ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-78" value="Интеграция с банками, страховыми компаниями и агентствами недвижимости" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-616" y="960" width="260" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-79" value="Представитель компании" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-504" y="866" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-83" value="Внешний контур" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-451" y="815" width="162" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-84" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.624;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LbroXFFPxOx5z_fi-mgZ-32" target="LbroXFFPxOx5z_fi-mgZ-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-396" y="1204" as="sourcePoint" />
+            <mxPoint x="-440" y="1161" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="LbroXFFPxOx5z_fi-mgZ-28" target="LbroXFFPxOx5z_fi-mgZ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0.544;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LbroXFFPxOx5z_fi-mgZ-17" target="LbroXFFPxOx5z_fi-mgZ-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-888" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;startArrow=classic;startFill=1;entryX=0.637;entryY=-0.003;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="LbroXFFPxOx5z_fi-mgZ-29" target="LbroXFFPxOx5z_fi-mgZ-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-829" y="1663" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-829" y="1476" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=classicThin;startFill=1;" edge="1" parent="1" source="LbroXFFPxOx5z_fi-mgZ-7" target="LbroXFFPxOx5z_fi-mgZ-41">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-892" y="1474" />
+              <mxPoint x="-892" y="1267" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.001;exitY=0.198;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="LbroXFFPxOx5z_fi-mgZ-37" target="LbroXFFPxOx5z_fi-mgZ-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-870" y="1175" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.071;entryY=0.999;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="LbroXFFPxOx5z_fi-mgZ-23" target="LbroXFFPxOx5z_fi-mgZ-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.002;exitY=0.188;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;exitPerimeter=0;" edge="1" parent="1" source="LbroXFFPxOx5z_fi-mgZ-40" target="LbroXFFPxOx5z_fi-mgZ-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-394" y="1187" />
+              <mxPoint x="-394" y="1472" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.964;exitY=-0.05;exitDx=0;exitDy=0;entryX=0.894;entryY=0.996;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="LbroXFFPxOx5z_fi-mgZ-3" target="LbroXFFPxOx5z_fi-mgZ-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-81" value="Внутренний контур ИС" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;strokeWidth=4;fontSize=19;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-222" y="1080" width="219" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="LbroXFFPxOx5z_fi-mgZ-17" target="LbroXFFPxOx5z_fi-mgZ-46">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1330" y="1242" />
+              <mxPoint x="-1330" y="1900" />
+              <mxPoint x="-188" y="1900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-103" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;startArrow=classic;startFill=1;" edge="1" parent="1" target="LbroXFFPxOx5z_fi-mgZ-43">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-444" y="1486" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-104" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;startArrow=classic;startFill=1;" edge="1" parent="1" source="LbroXFFPxOx5z_fi-mgZ-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-219" y="1562" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-1274" y="1889" />
+              <mxPoint x="-219" y="1889" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-105" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;startArrow=classic;startFill=1;" edge="1" parent="1" source="LbroXFFPxOx5z_fi-mgZ-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-804" y="1435" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-804" y="1435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LbroXFFPxOx5z_fi-mgZ-107" style="edgeStyle=orthogonalEdgeStyle;shape=connector;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;strokeWidth=1;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;startArrow=classic;startFill=1;" edge="1" parent="1" target="LbroXFFPxOx5z_fi-mgZ-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-98" y="1435" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
