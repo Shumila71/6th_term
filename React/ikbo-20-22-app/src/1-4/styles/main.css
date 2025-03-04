@@ -9,9 +9,3 @@ a{
 .active-link {
     text-decoration: underline;
   }
-div{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
-}

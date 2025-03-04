@@ -1,25 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import Home from './components/Home';
-import About from './components/About';
-import Dialog from './components/Dialog';
-import './styles/App.css'
+import { Provider } from 'react-redux';
+import store from './store';
+import AgreementForm from './components/AgreementForm';
+import './styles/main.css';
 
-
-function App() {
+const App = () => {
     return (
-        <Router>
-            <Header/>
-            <div className="app">
-                <Routes>
-                    <Route exect path="/" element={<Home message="Продам гараж." />} /> 
-                    <Route exect path="/about" element={<About />}/>
-                    <Route exect path="/dialog" element={<Dialog />} /> 
-                </Routes>
-            </div>
-        </Router>
+        <Provider store={store}>
+        <div>
+            <h1>Соглашайся, брат</h1>
+            <AgreementForm/>
+        </div>
+        </Provider>
     );
-}
-
+};
 export default App;
