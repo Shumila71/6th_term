@@ -1,41 +1,28 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
+import { loginUser } from '../actions/authActions';
+import { Link } from 'react-router-dom';
 
 const LoginForm = () => {
-  const [username, setUsername] = useState('');
-  const [password, setPassword] = useState('');
-  const dispatch = useDispatch();
+    const [credentials, setCredentials] = useState({ email: '', password: '' });
+    const dispatch = useDispatch();
 
-  const handleLogin = (e) => {
-    e.preventDefault();
-    // Симуляция аутентификации
-    if (username === 'user' && password === 'password') {
-      dispatch({
-        type: 'LOGIN',
-        payload: { username, role: 'user' },
-      });
-    } else {
-      alert('Неверные учетные данные');
-    }
-  };
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        dispatch(loginUser(credentials));
+        console.log("success login")
+    };
 
-  return (
-    <form onSubmit={handleLogin}>
-      <input
-        type="text"
-        placeholder="Имя пользователя"
-        value={username}
-        onChange={(e) => setUsername(e.target.value)}
-      />
-      <input
-        type="password"
-        placeholder="Пароль"
-        value={password}
-        onChange={(e) => setPassword(e.target.value)}
-      />
-      <button type="submit">Войти</button>
-    </form>
-  );
+    return (
+      <div>
+        <Link to = "/register">Регистрация</Link>
+        <form onSubmit={handleSubmit}>
+            <input type="email" value={credentials.email} onChange={(e) => setCredentials({...credentials, email: e.target.value})} />
+            <input type="password" value={credentials.password} onChange={(e) => setCredentials({...credentials, password: e.target.value})} />
+            <button type="submit">Login</button>
+        </form>
+      </div>
+    );
 };
 
 export default LoginForm;

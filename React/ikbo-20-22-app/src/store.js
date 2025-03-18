@@ -1,29 +1,15 @@
-import { createStore } from 'redux';
+import { createStore, applyMiddleware,combineReducers  } from 'redux';
+import { thunk } from 'redux-thunk'; 
+import agreementReducer from './reducers/reducers';
+import authReducer from './reducers/authReducer';
 
-const initialState = {
-  user: null,
-  isAuthenticated: false,
-};
-
-const authReducer = (state = initialState, action) => {
-  switch (action.type) {
-    case 'LOGIN':
-      return {
-        ...state,
-        user: action.payload,
-        isAuthenticated: true,
-      };
-    case 'LOGOUT':
-      return {
-        ...state,
-        user: null,
-        isAuthenticated: false,
-      };
-    default:
-      return state;
-  }
-};
-
-const store = createStore(authReducer);
+const root = combineReducers({
+    auth: authReducer, // authReducer управляет state.auth
+    agree: agreementReducer
+});
+const store = createStore(
+    root,
+    applyMiddleware(thunk)
+); 
 
 export default store;
