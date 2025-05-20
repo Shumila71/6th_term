@@ -7,7 +7,7 @@ const server = http.createServer(app);
 const { pool } = require("./db");
 const io = new Server(server, {
   cors: {
-    origin: "https://teamflow-frontend.onrender.com",
+    origin: "*",
   }
 });
 
@@ -30,7 +30,7 @@ app.use("/api/chats", chatRoutes);
 app.use("/api/messages", messageRoutes);
 
 app.use(cors({
- origin: "https://teamflow-frontend.onrender.com",
+ origin: "*",
  credentials: true,
  methods: ["GET", "POST", "OPTIONS", "PUT", "DELETE"]
 }));
@@ -79,4 +79,8 @@ io.on("connection", (socket) => {
 });
 
 const PORT = process.env.PORT || 5000;
-server.listen(PORT, () => console.log(`Сервер запущен на порту ${PORT}`));
+if (process.env.NODE_ENV !== 'test') {
+  server.listen(PORT, () => console.log(`Сервер запущен на порту ${PORT}`));
+}
+
+module.exports = { app, server };
