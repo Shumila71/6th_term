@@ -15,15 +15,19 @@ const authRoutes = require("./routes/authRoutes");
 const chatRoutes = require("./routes/chatRoutes");
 const messageRoutes = require("./routes/messageRoutes");
 
-
 const { initDB } = require("./db");
+const { seedTestData } = require("./load_test_data");
 const Message = require("./models/Message");
 
 require("dotenv").config();
 app.use(cors());
 app.use(express.json());
 
-initDB();
+// Инициализация базы данных и добавление тестовых данных
+(async () => {
+  await initDB();
+  await seedTestData();
+})();
 
 app.use("/api/auth", authRoutes);
 app.use("/api/chats", chatRoutes);
